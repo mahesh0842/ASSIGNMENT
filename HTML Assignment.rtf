@@ -1,0 +1,163 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2820
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 .SFNS-Bold;\f1\fnil\fcharset0 .SFNS-Regular;\f2\fnil\fcharset0 .AppleSystemUIFontMonospaced-Regular;
+\f3\fswiss\fcharset0 Helvetica;\f4\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red14\green14\blue14;\red155\green162\blue177;\red214\green85\blue98;
+\red197\green136\blue83;\red136\green185\blue102;}
+{\*\expandedcolortbl;;\cssrgb\c6700\c6700\c6700;\cssrgb\c67059\c69804\c74902;\cssrgb\c87843\c42353\c45882;
+\cssrgb\c81961\c60392\c40000;\cssrgb\c59608\c76471\c47451;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww37900\viewh15780\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl324\slmult1\pardirnatural\partightenfactor0
+
+\f0\b\fs30 \cf2 1. Inline vs. Block Elements in HTML
+\f1\b0\fs28 \
+\pard\tqr\tx100\tx260\li260\fi-260\sl324\slmult1\sb240\partightenfactor0
+\cf2 	\'95	
+\f0\b Inline Elements
+\f1\b0 : Do not start on a new line and only take up as much width as necessary. Examples: 
+\f2 <span>
+\f1 , 
+\f2 <a>
+\f1 , 
+\f2 <img>
+\f1 .\
+	\'95	
+\f0\b Block Elements
+\f1\b0 : Start on a new line and take up the full width available. Examples: 
+\f2 <div>
+\f1 , 
+\f2 <p>
+\f1 , 
+\f2 <h1>
+\f1 .\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl324\slmult1\pardirnatural\partightenfactor0
+
+\f0\b \cf2 Difference
+\f1\b0 : Block elements create structure, while inline elements handle content within a block.
+\f3\fs24 \cf0 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl324\slmult1\pardirnatural\partightenfactor0
+
+\f0\b\fs30 \cf2 2. Working with Images in HTML
+\f1\b0\fs28 \
+\
+The 
+\f2 <img />
+\f1  tag is used to embed images. Important attributes include:\
+\pard\tqr\tx100\tx260\li260\fi-260\sl324\slmult1\sb240\partightenfactor0
+\cf2 	\'95	
+\f2 src
+\f1 : Specifies the image file\'92s URL or path.\
+	\'95	
+\f2 alt
+\f1 : Provides alternative text if the image fails to load (important for accessibility).\
+	\'95	
+\f2 width
+\f1  and 
+\f2 height
+\f1 : Define image dimensions.\
+Example:
+\f3\fs24 \cf0 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f4\fs28 \cf3 <\cf4 img\cf3  \cf5 src\cf3 =\cf6 "image.jpg"\cf3  \cf5 alt\cf3 =\cf6 "Sample Image"\cf3  \cf5 width\cf3 =\cf6 "300"\cf3  \cf5 height\cf3 =\cf6 "200"\cf3  />
+\f3\fs24 \cf0 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl324\slmult1\pardirnatural\partightenfactor0
+
+\f0\b\fs30 \cf2 3. Creating Lists in HTML
+\f1\b0\fs28 \
+\pard\tqr\tx100\tx260\li260\fi-260\sl324\slmult1\sb240\partightenfactor0
+\cf2 	\'95	
+\f0\b Ordered List
+\f1\b0  (
+\f2 <ol>
+\f1 ): Numbered items.
+\f3\fs24 \cf0 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f4\fs28 \cf3 <\cf4 ol\cf3 >\
+  <\cf4 li\cf3 >Item 1</\cf4 li\cf3 >\
+  <\cf4 li\cf3 >Item 2</\cf4 li\cf3 >\
+</\cf4 ol\cf3 >
+\f3\fs24 \cf0 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl324\slmult1\pardirnatural\partightenfactor0
+
+\f1\fs28 \cf2 \
+\pard\tqr\tx100\tx260\li260\fi-260\sl324\slmult1\sb240\partightenfactor0
+\cf2 	\'95	
+\f0\b Unordered List
+\f1\b0  (
+\f2 <ul>
+\f1 ): Bulleted items.
+\f3\fs24 \cf0 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f4\fs28 \cf3 <\cf4 ul\cf3 >\
+  <\cf4 li\cf3 >Item A</\cf4 li\cf3 >\
+  <\cf4 li\cf3 >Item B</\cf4 li\cf3 >\
+</\cf4 ul\cf3 >
+\f3\fs24 \cf0 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl324\slmult1\pardirnatural\partightenfactor0
+
+\f1\fs28 \cf2 \
+\pard\tqr\tx100\tx260\li260\fi-260\sl324\slmult1\sb240\partightenfactor0
+\cf2 	\'95	
+\f0\b Definition List
+\f1\b0  (
+\f2 <dl>
+\f1 ): Terms with descriptions.
+\f3\fs24 \cf0 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f4\fs28 \cf3 <\cf4 dl\cf3 >\
+  <\cf4 dt\cf3 >Term</\cf4 dt\cf3 >\
+  <\cf4 dd\cf3 >Definition</\cf4 dd\cf3 >\
+</\cf4 dl\cf3 >
+\f3\fs24 \cf0 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl324\slmult1\pardirnatural\partightenfactor0
+
+\f0\b\fs30 \cf2 4. Interlinking Web Pages and Navigation
+\f1\b0\fs28 \
+\
+Use the 
+\f2 <a>
+\f1  tag to link pages:\
+\pard\tqr\tx100\tx260\li260\fi-260\sl324\slmult1\sb240\partightenfactor0
+\cf2 	\'95	
+\f0\b Internal Linking
+\f1\b0 : Navigate within the same site.
+\f3\fs24 \cf0 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f4\fs28 \cf3 <\cf4 a\cf3  \cf5 href\cf3 =\cf6 "about.html"\cf3 >About Us</\cf4 a\cf3 >
+\f3\fs24 \cf0 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl324\slmult1\pardirnatural\partightenfactor0
+
+\f1\fs28 \cf2 \
+\pard\tqr\tx100\tx260\li260\fi-260\sl324\slmult1\sb240\partightenfactor0
+\cf2 	\'95	
+\f0\b External Linking
+\f1\b0 : Navigate to other websites.
+\f3\fs24 \cf0 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f4\fs28 \cf3 <\cf4 a\cf3  \cf5 href\cf3 =\cf6 "https://example.com"\cf3  \cf5 target\cf3 =\cf6 "_blank"\cf3 >Visit Example</\cf4 a\cf3 >
+\f3\fs24 \cf0 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl324\slmult1\pardirnatural\partightenfactor0
+
+\f1\fs28 \cf2 \
+\
+The 
+\f2 target="_blank"
+\f1  attribute opens the link in a new tab.}
